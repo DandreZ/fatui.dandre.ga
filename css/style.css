@@ -89,14 +89,6 @@ li {
     text-decoration:none;
     font-weight: bold;
 }
-.ft .text .zz {
-    font-size: 20px;
-    color: rgb(255, 255, 255,0.85);
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, 0);
-}
 .eo {
     width: 100%;
     height: 100%;
@@ -141,7 +133,7 @@ li {
 .eo .im-4 {
     width: 100%;
     height: 100%;
-    background-image: url(/images/ExecutiveOfficer/Knave.png);
+    background-image: url(/images/ExecutiveOfficer/Captain.png);
     background-size: cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
@@ -207,7 +199,7 @@ li {
 .eo .im-10 {
     width: 100%;
     height: 100%;
-    background-image: url(/images/ExecutiveOfficer/Damselette.png);
+    background-image: url(/images/ExecutiveOfficer/Knave.png);
     background-size: cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
@@ -218,11 +210,111 @@ li {
 .eo .im-11 {
     width: 100%;
     height: 100%;
-    background-image: url(/images/ExecutiveOfficer/Damselette.png);
+    background-image: url(/images/ExecutiveOfficer/Childe.png);
     background-size: cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-position: center ;
     z-index: 1;
 
+}
+
+@media screen and (orientation:portrait) {
+    .ft .text .size {
+        font-size: 5vw;
+        margin: 0 10%;
+    }
+    .ft .text .zz {
+        font-size: 5vw;
+        color: rgb(255, 255, 255,0.85);
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    .ft .text h1 {
+        font-size: 10vw;
+        margin: 0 0;
+    }
+    .ft .text h2 {
+        font-size: 7vw;
+        margin: 0 0;
+    }
+    .eo .text {
+        width: 80%;
+        height: 50%;
+        text-align: center;
+        position: absolute;
+        top: 25%;
+        left: 10%;
+        background-color: rgba(0, 0, 0, 0.5);
+        box-shadow: 2px 2px 20px rgb(100, 100, 100);
+    }
+    .eo .text p {
+        color: rgb(255, 255, 255,0.35);
+        font-size: 6vw;
+        margin: 4% 10%;
+    }
+    .eo .text .eoth {
+        font-size: 11vw;
+        margin: 0 0;
+    }
+    .eo .text p .details {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        color: rgb(255, 255, 255,0.35);
+        text-decoration:none
+    }
+}
+
+@media screen and (orientation:landscape) {
+    .ft .text .size {
+        font-size: 4vh;
+        margin: 0 10%;
+    }
+    .ft .text .zz {
+        font-size: 4vh;
+        color: rgb(255, 255, 255,0.85);
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    .ft .text h1 {
+        font-size: 10vh;
+        margin: 0 0;
+    }
+    .ft .text h2 {
+        font-size: 7vh;
+        margin: 0 0;
+    }
+    .eo .text {
+        width: 80%;
+        height: 50%;
+        text-align: center;
+        position: absolute;
+        top: 25%;
+        left: 10%;
+        background-color: rgba(0, 0, 0, 0.5);
+        box-shadow: 2px 2px 20px rgb(100, 100, 100);
+    }
+    .eo .text p {
+        color: rgb(255, 255, 255,0.35);
+        font-size: 4vh;
+        margin: 0.7% 10%;
+    }
+    .eo .text .eoth {
+        font-size: 8vh;
+        margin: 0 0;
+    }
+    .eo .text p .details {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        color: rgb(255, 255, 255,0.35);
+        text-decoration:none
+    }
 }
