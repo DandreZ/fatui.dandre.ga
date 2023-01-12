@@ -24,18 +24,19 @@ body {
 	padding: 0;
 	margin: 0;
 	width: 100%;
-	height: 70px;
+	height: 8%;
 	backdrop-filter: blur(32px);
     position:fixed;
     margin:0 0;
     z-index: 99;
+    box-shadow: 2px 0 20px rgba(50, 50, 50);
 }
 
 .main-nav a
 {	
     max-width: 110px;
     width:20vw;			
-    line-height:70px; 		     
+    line-height:8vh; 		     
     text-decoration: none;              
     font-size:25px;			 
     color: #FFFFFF;
@@ -60,13 +61,6 @@ li {
 }
 .middle {
     text-align: center;
-}
-.welcome {
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    z-index: 2;
 }
 .main-nav .logo a {
     width: 50px;
@@ -97,6 +91,10 @@ li {
     top: 200%;
     left: 0;
 
+}
+.eo .text .more {
+    color: rgb(255, 255, 255,0.5);
+    text-decoration:none
 }
 @media screen and (orientation:portrait) {
     .ft .text .size {
@@ -133,7 +131,7 @@ li {
     .eo .text p {
         color: rgb(255, 255, 255,0.35);
         font-size: 6vw;
-        margin: 4% 10%;
+        margin: 3% 10%;
     }
     .eo .text .eoth {
         font-size: 11vw;
@@ -150,13 +148,13 @@ li {
     audio {
         height: 10%;
         position: absolute;
-        top: 5%;
+        top: 6%;
         left: 0;
         z-index: 2;
         opacity: 0.5;
     }
     .ms-d {
-        width: 10%;
+        width: 12%;
         height: 8%;
         position: fixed;
         top: 45%;
@@ -166,6 +164,23 @@ li {
         text-align: center;
         box-shadow: 2px 2px 20px rgb(100, 100, 100);
         z-index: 99;
+    }
+    .welcome {
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        z-index: 2;
+    }
+    .welcome .b {
+        color: rgb(255, 255, 255,0.55);
+        font-size: 23vw;
+        margin: 5px;
+    }
+    .welcome .s {
+        color: rgb(255, 255, 255,0.55);
+        font-size: 4vw;
+        text-align: center;
     }
 }
 
@@ -220,7 +235,6 @@ li {
     }
     audio {
         position: fixed;
-        top: 0.75%;
         right: 0;
         z-index: 99;
         opacity: 0.5;
@@ -232,6 +246,23 @@ li {
         position: absolute;
         top: 0;
         left: 0;
+    }
+    .welcome {
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        z-index: 2;
+    }
+    .welcome .b {
+        color: rgb(255, 255, 255,0.55);
+        font-size: 20vh;
+        margin: 5px;
+    }
+    .welcome .s {
+        color: rgb(255, 255, 255,0.55);
+        font-size: 5vh;
+        text-align: center;
     }
 }
 .eo .im-1 {
